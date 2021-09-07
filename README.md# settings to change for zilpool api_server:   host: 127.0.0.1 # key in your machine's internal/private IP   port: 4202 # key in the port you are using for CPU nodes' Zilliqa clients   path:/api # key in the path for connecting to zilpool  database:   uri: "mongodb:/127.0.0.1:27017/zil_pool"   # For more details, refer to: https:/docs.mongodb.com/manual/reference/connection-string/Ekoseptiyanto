@@ -1,0 +1,19 @@
+- 👋 Hi, I’m @Ekoseptiyanto
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Ekoseptiyanto/Ekoseptiyanto is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+# settings to change for zilpool
+api_server:
+  host: 127.0.0.1 # key in your machine's internal/private IP
+  port: 4202 # key in the port you are using for CPU nodes' Zilliqa clients
+  path: /api # key in the path for connecting to zilpool
+
+database:
+  uri: "mongodb://127.0.0.1:27017/zil_pool"
+  # For more details, refer to: https://docs.mongodb.com/manual/reference/connection-string/
